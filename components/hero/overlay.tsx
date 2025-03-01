@@ -19,7 +19,7 @@ const Overlay = () => {
               Vercel provides the developer tools and cloud infrastructure to
               build, scale, and secure a faster, more personalized web.
             </p>
-            <div className="flex flex-col sm:flex-row items-center justify-center gap-x-4 pt-4">
+            <div className="flex flex-row items-center justify-center gap-x-4 pt-4">
               <Link
                 href=""
                 className="bg-white text-black text-[0.7rem] flex gap-x-1 items-center justify-center hover:bg-white/90  px-4 py-1.5 rounded-full transition-colors"

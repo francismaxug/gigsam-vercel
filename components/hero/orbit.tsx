@@ -39,7 +39,7 @@ const Orbit = () => {
           </button>
         </div>
       </div>
-      <div className=" space-y-2">
+      <div className=" space-y-2 hidden md:block">
         <div className="relative  m-0 flex  p-0 items-center justify-center overflow-hidden">
           <IconCloud images={images} />
         </div>

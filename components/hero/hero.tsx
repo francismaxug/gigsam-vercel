@@ -190,7 +190,7 @@ const LandingPage = () => {
         </div>
         {/* {""} */}
         <div className=" flex items-center justify-center text-center w-full py-12 border-b border-neutral-900">
-          <div className=" text-[1.4rem] w-full flex items-center justify-center">
+          <div className=" text-[0.7rem] sm:text-[1.4rem] w-full flex items-center justify-center">
             Scale your{" "}
             <span className="ml-1 mr-1">
               {" "}

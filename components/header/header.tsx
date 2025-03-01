@@ -6,7 +6,7 @@ import { ShiftingDropDown } from "@/components/header/header-dropdowns"
 
 const Header = () => {
   return (
-    <header className="fixed top-0 mb-20 px-3 w-full bord  bg-black/50 backdrop-blur-md z-50 border-b border-neutral-900">
+    <header className="fixed top-0  mb-20 px-3 w-full bord  bg-black/50 backdrop-blur-md z-50 border-b border-neutral-900">
       <div className="container mx-auto px-0 h-16 flex items-center justify-between">
         <div className="flex items-center space-x-10">
           <Link

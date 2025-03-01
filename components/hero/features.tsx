@@ -21,7 +21,7 @@ const Features = () => {
       />
 
       <main className="relative  h-auto">
-        <div className="container mx-auto px-0 w-full flex  gap-x-4 ">
+        <div className="container mx-auto px-0 w-full gap-y-2 flex flex-col md:flex-row  gap-x-4 ">
           <div className="w-[210px]">
             <div className=" flex gap-x-2 items-center pl-6 ">
               <p className="text-[1.2rem]">Your</p>
@@ -42,8 +42,8 @@ const Features = () => {
             </div>
             <p className=" -mt-3 pl-6 text-[1.2rem]">your way</p>
           </div>
-          <div className="  w-full flex-1/3 ml-4 mt-4">
-            <div className=" grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 gap-y-10 items-center">
+          <div className="  w-full flex-1/3 md:ml-4 mt-4">
+            <div className=" grid grid-cols-3 lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 gap-y-10 items-center">
               <div className=" group w-full h-full flex items-center justify-center ">
                 <TbBrandNextjs className="inline-block size-10  text-white group-hover:text-orange-600 " />
               </div>
@@ -80,25 +80,3 @@ const Features = () => {
 }
 
 export default Features
-// <div>
-// <div>
-//   <div className=" flex gap-x-2 items-center">
-//     <p>Your</p>
-//     <WordRotate
-//       className="text-2xl font-bold text-pink-600 dark:text-white"
-//       words={[
-//         "Next",
-//         "React",
-//         "Angular",
-//         "Python",
-//         "Nuxt",
-//         "Vite",
-//         "Astro",
-//         "Gatsby",
-//         "Skype",
-//       ]}
-//     />
-//   </div>
-//   <p className=" -mt-3">your way</p>
-// </div>
-// </div>
