@@ -15,7 +15,7 @@ const images = slugs.map(
 
 const Orbit = () => {
   return (
-    <div className=" relative grid lg:grid-cols-[1fr_300px] md:lg:grid-cols-1 md:gap-y-4 px-8 py-12 pb-16 gap-x-7 text-neutral-500 border-b border-neutral-900">
+    <div className=" relative grid lg:grid-cols-[1fr_300px] md:grid-cols-1 md:gap-y-4 px-8 py-12 pb-16 gap-x-7 text-neutral-500 border-b border-neutral-900">
       <div className=" ">
         <ScriptCopyBtn
           //   showMultiplePackageOptions={true}
